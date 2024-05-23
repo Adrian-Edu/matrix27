@@ -1,0 +1,46 @@
+@import "colors";
+@import "utilities";
+
+.primary-button {
+  cursor: pointer;
+  text-align: center;
+  font-family: $primary-font-family;
+  font-size: $secondary-font-size;
+  font-style: $primary-font;
+  font-weight: $primary-font-weight;
+  line-height: 6px;
+  padding: 18px 0;
+  border: none;
+}
+
+.secondary-button {
+  cursor: pointer;
+  text-align: center;
+  font-family: $primary-font-family;
+  font-size: $secondary-font-size;
+  font-style: $primary-font;
+  font-weight: $primary-font-weight;
+  line-height: 6px;
+  padding: 15px 0;
+  border: none;
+}
+
+.transparent-button {
+  cursor: pointer;
+  text-align: center;
+  font-family: $secondary-font-family;
+  font-size: $tertiary-font-size;
+  font-style: $primary-font;
+  font-weight: $primary-font-weight;
+  line-height: $tertiary-font-size;
+  border: none;
+}
+
+.third-button {
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background: $quinary-background;
+  width: 60px;
+  height: 48px;
+}

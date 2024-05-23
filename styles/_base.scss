@@ -1,0 +1,268 @@
+@import "colors";
+@import "utilities";
+@import "components";
+@import "breakpoints";
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary-background;
+  height: $page-height;
+  width: 100%;
+
+  .content__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-top: 80px;
+  }
+
+  .content__container__aside--left {
+    background-color: $secondary-background;
+    margin-right: $tertiary-font-size;
+    width: 240px;
+    height: 525px;
+    flex-shrink: 0;
+  }
+
+  .content__container__aside--right {
+    background-color: $secondary-background;
+    margin-left: $tertiary-font-size;
+    width: 240px;
+    height: 525px;
+    flex-shrink: 0;
+  }
+
+  .content__container__center-top {
+    width: 700px;
+    height: 127px;
+    flex-shrink: 0;
+  }
+
+  .content__container__center-center {
+    width: 700px;
+    height: 58px;
+    flex-shrink: 0;
+    background-color: $secondary-background;
+    display: flex;
+    align-items: center;
+    margin: 10px 0 2px 0;
+  }
+
+  .content__container__center-center-team-score {
+    margin: 6px 5px 5px 5px;
+    width: 220px;
+    height: 47px;
+    flex-shrink: 0;
+  }
+
+  .content__container__center-center-team-score-first-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content__container__center-center-team-score-first-2-teams p {
+    color: $primary-font-color;
+    font-family: $primary-font-family;
+    font-size: $primary-font-size;
+    font-style: $primary-font;
+    font-weight: $primary-font-weight;
+    line-height: 9px;
+    margin: 6px 0 0 5px;
+  }
+
+  .content__container__center-center-team-score-first-2-score p {
+    color: $quaternary-font-color;
+    font-family: $primary-font-family;
+    font-size: $primary-font-size;
+    font-style: $primary-font;
+    font-weight: $primary-font-weight;
+    line-height: 9px;
+    margin: 6px 0;
+  }
+
+  .content__container__center-center-team-score-minutes p {
+    color: $secondary-font-color;
+    font-family: $secondary-font-family;
+    font-size: $tertiary-font-size;
+    font-style: $primary-font;
+    font-weight: $primary-font-weight;
+    line-height: $tertiary-font-size;
+    margin: 0 0 5px 5px;
+  }
+
+  .content__container__center-center-base-1 .primary-button {
+    position: relative;
+    height: 48px;
+    width: 50px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, $secondary-opacity);
+    background: $quinary-background;
+    color: $primary-font-color;
+    margin-right: 2px;
+  }
+
+  .content__container__center-center-base-1 svg {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+  }
+
+  .content__container__center-center-base-2 .primary-button {
+    height: 48px;
+    width: 50px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, $secondary-opacity);
+    background: $quinary-background;
+    color: $primary-font-color;
+    margin-right: 2px;
+  }
+
+  .content__container__center-center-base-3 .secondary-button {
+    position: relative;
+    height: 48px;
+    width: 50px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, $secondary-opacity);
+    background: $tertiary-background;
+    color: $quinary-font-color;
+  }
+
+  .content__container__center-center-base-3 svg {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+  }
+
+  .content__container__center-center-base-4 .primary-button {
+    position: relative;
+    height: 48px;
+    width: 55px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, $secondary-opacity);
+    color: $primary-font-color;
+    background: $quinary-background;
+    margin-left: 10px;
+  }
+
+  .content__container__center-center-base-4 svg {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+  }
+
+  .content__container__center-center-base-5 .transparent-button {
+    color: $tertiary-font-color;
+    text-align: center;
+    font-family: $secondary-font-family;
+    font-size: $tertiary-font-size;
+    font-style: $primary-font;
+    font-weight: $primary-font-weight;
+    line-height: $tertiary-font-size;
+    background: none;
+    width: 30px;
+    height: 7px;
+  }
+
+  .content__container__center-center-base-6 .primary-button {
+    height: 48px;
+    width: 55px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, $secondary-opacity);
+    color: $primary-font-color;
+    background: $quinary-background;
+    margin-right: 10px;
+  }
+
+  .content__container__center-center-base-7 {
+    width: 60px;
+    height: 48px;
+    flex-shrink: 0;
+    background: $quinary-background;
+    margin-right: 2px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, $secondary-opacity);
+  }
+
+  .content__container__center-center-base-7 .third-button {
+    margin-right: 2px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, $secondary-opacity);
+  }
+
+  .content__container__center-center-base-7 p:first-child {
+    color: $primary-font-color;
+    text-align: center;
+    font-family: $secondary-font-family;
+    font-size: $tertiary-font-size;
+    font-style: $primary-font;
+    font-weight: $primary-font-weight;
+    line-height: $tertiary-font-size;
+    margin: 12px 0 5px 0;
+    opacity: $primary-opacity;
+  }
+
+  .content__container__center-center-base-7 p:last-child {
+    color: $primary-font-color;
+    text-align: center;
+    font-family: $primary-font-family;
+    font-size: $secondary-font-size;
+    font-style: $primary-font;
+    font-weight: $primary-font-weight;
+    line-height: 6px;
+    margin: 0 0 14px 0;
+  }
+
+  .content__container__center-center-base-8 .third-button {
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, $secondary-opacity);
+  }
+
+  .content__container__center-center-base-8 p:first-child {
+    color: $primary-font-color;
+    text-align: center;
+    font-family: $secondary-font-family;
+    font-size: $tertiary-font-size;
+    font-style: $primary-font;
+    font-weight: $primary-font-weight;
+    line-height: $tertiary-font-size;
+    margin: 12px 0 5px 0;
+    opacity: $primary-opacity;
+  }
+
+  .content__container__center-center-base-8 p:last-child {
+    color: $primary-font-color;
+    text-align: center;
+    font-family: $primary-font-family;
+    font-size: $secondary-font-size;
+    font-style: $primary-font;
+    font-weight: $primary-font-weight;
+    line-height: 6px;
+    margin: 0 0 14px 0;
+  }
+
+  .content__container__center-center-base-9 {
+    width: 30px;
+    height: 58px;
+    flex-shrink: 0;
+    margin-left: 4px;
+  }
+
+  .content__container__center-footer {
+    width: 700px;
+    height: 328px;
+    left: 1000px;
+    flex-shrink: 0;
+    background: $secondary-background;
+  }
+
+  .primary-button:hover {
+    background-color: red;
+  }
+
+  .secondary-button:hover {
+    background-color: rgb(0, 183, 255);
+  }
+
+  .third-button:hover {
+    background-color: rgb(9, 255, 0);
+  }
+
+  @include sm;
+  @include md;
+  @include lg;
+  @include xl;
+}
